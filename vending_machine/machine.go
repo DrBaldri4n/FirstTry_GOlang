@@ -1,6 +1,6 @@
 package main
 
-/*
+
 import (
 	"errors"
 	"fmt"
@@ -38,7 +38,7 @@ func mainMachine(remove string) error {
 	return nil
 }
 
-func moneyTransfer(costs float32) { //sollte ich hier auf performance achten bei größeren Projekten?
+func moneyTransfer(costs float32) {
 	var input float32
 	costsInt := round(costs)
 	for costs > 0 {
@@ -90,4 +90,3 @@ func moneyTransfer(costs float32) { //sollte ich hier auf performance achten bei
 		}
 	}
 }
-*/
